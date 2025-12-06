@@ -1,0 +1,6 @@
+text_5 = str("    python;IS;AWEsomE;!")
+text_5 = text_5.strip()
+text_5 = " ".join(text_5.split(";", 2))
+text_5 = text_5.replace(";", "")
+text_5= text_5.capitalize()
+print((text_5))

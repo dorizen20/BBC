@@ -1,0 +1,6 @@
+message = str(input("write your message: "))
+separator = str(input("what is separator? "))
+message = message.split(separator)
+new_separator = str(input("write new separator "))
+message = new_separator.join(message)
+print(message)
